@@ -160,6 +160,7 @@ export function processOpenApi(openApi: OpenApi, prefix: string = '') {
                 paramDef.paramFromType === 'query'
               ) {
                 requestSchema[paramDef.paramFromType] = {
+                  ...requestSchema[paramDef.paramFromType],
                   [paramDef.paramKey]: getApiSchema(
                     paramDef.description || '',
                     example,
