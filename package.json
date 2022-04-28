@@ -12,18 +12,26 @@
     "lib/"
   ],
   "typings": "lib/index.d.ts",
-  "keywords": ["typescript", "ts", "swagger", "api", "document", "midwayjs", "koatty"],
+  "keywords": [
+    "typescript",
+    "ts",
+    "swagger",
+    "api",
+    "document",
+    "midwayjs",
+    "koatty"
+  ],
   "homepage": "https://github.com/Zsynuting/ts-swagger-doc",
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "koa-static": "^5.0.0",
-    "reflect-metadata": "^0.1.13",
-    "ts-openapi": "^1.0.3",
-    "typescript": "^4.6.2",
     "koa": "^2.13.4",
     "koa-router": "^10.1.1",
-    "swagger-ui-koa": "^0.0.1"
+    "koa-static": "^5.0.0",
+    "reflect-metadata": "^0.1.13",
+    "swagger-ui-koa": "^0.0.1",
+    "ts-openapi": "^1.1.0",
+    "typescript": "^4.6.2"
   },
   "devDependencies": {
     "ts-node": "^10.7.0",
